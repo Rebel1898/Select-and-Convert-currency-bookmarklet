@@ -1,4 +1,4 @@
-This bookmarklet get selected text and, if it is a valid amount it gets converted to your specified currency.
+This bookmarklet gets selected text and, if it is a valid amount it gets converted to your specified currency.
 Convenient for quick one on one conversion.
 ![imagen](https://github.com/user-attachments/assets/acf6db56-684d-4055-b591-df8a93d338dc)
 
