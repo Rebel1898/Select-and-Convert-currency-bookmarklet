@@ -1,6 +1,7 @@
 This bookmarklet gets selected text and, if it is a valid amount it gets converted to your specified currency.
 Convenient for quick one on one conversion.
-![imagen](https://github.com/user-attachments/assets/acf6db56-684d-4055-b591-df8a93d338dc)
+
+![imagen](https://github.com/user-attachments/assets/1051a358-1538-4019-9e3c-a24770c4a3ea)
 
 Generate your custom bookmarklet here!
 https://rebel1898.github.io/Select-and-Convert-currency-bookmarklet/
