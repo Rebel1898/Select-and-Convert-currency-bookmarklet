@@ -42,7 +42,8 @@ javascript: (function () {
     }
 
     async function convertirMoneda(cantidad, base, destino) {
-        const url = `https://api.frankfurter.app/latest?amount=${cantidad}&from=${base}&to=${destino}`;
+        const url = `https://api.frankfurter.dev/v2/rate/${base}/${destino}`;
+
 
         try {
             const response = await fetch(url);
@@ -50,9 +51,9 @@ javascript: (function () {
                 throw new Error(`Request error: ${response.status}`);
             }
             const data = await response.json();
-            return data.rates[destino];
+            return (data.rates[destino]*cantidad).toFixed(2);
         } catch (error) {
-            alert('Error:', error);
+            alert('Error:'+ error);
             return null;
         }
     }
