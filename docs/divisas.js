@@ -1,7 +1,7 @@
 javascript: (function () {
     var texto = ObtenerValorfromSelection();
-    var divisaOrigin = "JPY";
-    var divisaDestiny = "EUR";
+    var divisaOrigin = "__INPUT__CURRENCY";
+    var divisaDestiny = "__OUTPUT__CURRENCY";
     if (dineroValido(texto)) {
         texto = EliminarSeparadorMiles(texto);
         convertirMoneda(texto, divisaOrigin, divisaDestiny).then(resultado => {
