@@ -51,7 +51,7 @@ javascript: (function () {
                 throw new Error(`Request error: ${response.status}`);
             }
             const data = await response.json();
-            return (data.rates[destino]*cantidad).toFixed(2);
+            return (data.rate*cantidad).toFixed(2);
         } catch (error) {
             alert('Error:'+ error);
             return null;
